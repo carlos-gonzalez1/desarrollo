@@ -1,0 +1,30 @@
+/*GRID*/
+.header{
+    grid-area: header;
+    background-image: linear-gradient(#1d4350,#434343);
+}
+
+.navbar{
+    grid-area: navbar;
+    background-image: linear-gradient(#1d4350,#434343);
+}
+
+.main{
+    grid-area: main;
+    background-image: linear-gradient(#1d4350,#434343);
+}
+
+.footer{
+    grid-area: footer;
+    background-image: linear-gradient(#1d4350,#434343);
+}
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "header"
+    "navbar"
+    "main"
+    "footer";
+}

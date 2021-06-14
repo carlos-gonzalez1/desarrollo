@@ -1,262 +1,121 @@
-    /*productos- balanceada*/  
+    /*productos*/  
 
-    .container{
-        width: 100%;
-        display: flex;
-        max-width: 1100px;
-    }
-    .card4{
-        width: 100%;
-        margin: 20px;
-        border-radius: 6px;
-        overflow: hidden;
-        background: #fff;
-        box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
-        cursor: default;
-        transition: all 400ms ease;
-    }
-    .card4 img{
-        width: 100%;
-        height: 210px;
-    }
-    .card4 .contenido{
-        padding: 15px;
-        text-align: center;
-    }
-    .card4 .contenido p{
-        line-height: 1.5;
-        color: #6a6a6a;
-    }
-    .card4 .contenido h3{
-        font-weight: 400;
-        margin-bottom: 15px;
-    }
-    .card4 .contenido a{
-        text-decoration: none;
-        display: inline-block;
-        padding: 10px;
-        margin-top: 10px;
-        color: #2fb4cc;
-        border: 1px solid #2fb4cc;
-        border-radius: 4px;
-        transition: all 400ms ease;
-    }
-
-    /*productos-perros*/
-.container{
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eee;
+}
+.cards{
     width: 100%;
     display: flex;
-    max-width: 1100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
-.card6{
+.cards .new-arrival{
     width: 100%;
-    margin: 20px;
-    border-radius: 6px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
-    cursor: default;
-    transition: all 400ms ease;
+    margin-top: 20px;
 }
-.card6 img{
-    width: 100%;
-    height: 210px;
-}
-.card6 .contenido{
-    padding: 15px;
+.cards .new-arrival h1{
     text-align: center;
+    font-size: 50px;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
-.card6 .contenido p{
-    line-height: 1.5;
-    color: #6a6a6a;
+.cards .new-arrival h1::after{
+    content: "";
+    height: 5px;
+    width: 325px;
+    background-color: #222;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
 }
-.card6 .contenido h3{
-    font-weight: 400;
-    margin-bottom: 15px;
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0,25%);
+    width: 325px;
+    text-align: center;
+    margin: 25px;
+    cursor: pointer;
+    background-color: #fff;
 }
-.card6 .contenido a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: #2fb4cc;
-    border: 1px solid #2fb4cc;
-    border-radius: 4px;
-    transition: all 400ms ease;
-}
-
-
-/*productos-gatos*/
-.container{
+.image-section{
     width: 100%;
     display: flex;
-    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
 }
-.card7{
+.image-section img{
     width: 100%;
-    margin: 20px;
-    border-radius: 6px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
-    cursor: default;
-    transition: all 400ms ease;
+    height: auto;
 }
-.card7 img{
-    width: 100%;
-    height: 210px;
-}
-.card7 .contenido{
-    padding: 15px;
+.description{
     text-align: center;
+    margin-top: 20px;
 }
-.card7 .contenido p{
-    line-height: 1.5;
-    color: #6a6a6a;
-}
-.card7 .contenido h3{
-    font-weight: 400;
-    margin-bottom: 15px;
-}
-.card7 .contenido a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
+.description h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #222;
+    letter-spacing: 2px;
     margin-top: 10px;
-    color: #2fb4cc;
-    border: 1px solid #2fb4cc;
-    border-radius: 4px;
-    transition: all 400ms ease;
 }
-
-
-/*productos-rascadores*/
-.container{
-    width: 100%;
-    display: flex;
-    max-width: 1100px;
-}
-.card5{
-    width: 100%;
-    margin: 20px;
-    border-radius: 6px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
-    cursor: default;
-    transition: all 400ms ease;
-}
-.card5 img{
-    width: 100%;
-    height: 210px;
-}
-.card5 .contenido{
-    padding: 15px;
-    text-align: center;
-}
-.card5 .contenido p{
-    line-height: 1.5;
-    color: #6a6a6a;
-}
-.card5 .contenido h3{
-    font-weight: 400;
-    margin-bottom: 15px;
-}
-.card5 .contenido a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
+.description p{
+    font-size: 17px;
+    letter-spacing: 1.5px;
     margin-top: 10px;
-    color: #2fb4cc;
-    border: 1px solid #2fb4cc;
-    border-radius: 4px;
-    transition: all 400ms ease;
+    color: #000;
 }
-
-/*productos-ropa*/
-.container{
-    width: 100%;
-    display: flex;
-    max-width: 1100px;
+.description span{
+    margin-left: 8px;
 }
-.card2{
-    width: 100%;
-    margin: 20px;
-    border-radius: 6px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
-    cursor: default;
-    transition: all 400ms ease;
+.description del{
+    margin-left: 7px;
+    font-size: 15px;
+    color: #f2533a;
 }
-
-.card2 img{
-    width: 100%;
-    height: 210px;
+.button-group{
+    margin-top: 30px;
 }
-.card2 .contenido{
-    padding: 15px;
-    text-align: center;
-}
-.card2 .contenido p{
-    line-height: 1.5;
-    color: #6a6a6a;
-}
-.card2 .contenido h3{
-    font-weight: 400;
-    margin-bottom: 15px;
-}
-.card2 .contenido a{
+.button-group .buy{
+    background-color: #1976d2;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 5px;
     text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: #2fb4cc;
-    border: 1px solid #2fb4cc;
-    border-radius: 4px;
-    transition: all 400ms ease;
+    letter-spacing: 1px;
+    color: #fff;
 }
-
-/*productos-accesorios*/
-
-.container{
-    width: 100%;
-    display: flex;
-    max-width: 1100px;
+.button-group .buy:hover{
+    background-color: #0b348d;
+    transition: 0.6s ease;
 }
-.card3{
-    width: 100%;
-    margin: 20px;
-    border-radius: 6px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
-    cursor: default;
-    transition: all 400ms ease;
-}
-.card3 img{
-    width: 100%;
-    height: 210px;
-}
-.card3 .contenido{
-    padding: 15px;
-    text-align: center;
-}
-.card3 .contenido p{
-    line-height: 1.5;
-    color: #6a6a6a;
-}
-.card3 .contenido h3{
-    font-weight: 400;
-    margin-bottom: 15px;
-}
-.card3 .contenido a{
+.button-group .cart{
+    background-color: #f2533a;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 5px;
     text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: #2fb4cc;
-    border: 1px solid #2fb4cc;
-    border-radius: 4px;
-    transition: all 400ms ease;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.button-group .cart:hover{
+    background-color: #222;
+    transition: 0.6s ease;
+}
+.star-icons{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.star-icons i{
+    color: #db8b21;
+    padding: 0px 3px;
+    font-size: 18px;
 }

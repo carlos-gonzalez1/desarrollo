@@ -1,67 +1,63 @@
     /*media queries*/
-        
     /*phones*/
+@media (min-width: 576px) and (max-width: 767px) { 
         
-    @media (min-width: 576px) and (max-width: 767px) { 
         
-        
-        body{
-            background-image: linear-gradient(#1d4350,#434343);
-    }
+body{
+    background-color: #f907fc;
+    background-image: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%);
+}
     
-    .grid-container{
-        grid-template:
-        "header header" 100px
-        "navbar navbar" 50px
-        "main main"     auto
-        "footer footer" 100px;
-    }     
-    }
-            
+.grid-container{
+    grid-template:
+    "header header" 100px
+    "navbar navbar" 50px
+    "main main"     auto
+    "footer footer" 100px;
+}     
+}
         /*TABLE*/
-    @media (min-width:768px) and (max-width:991px){
+@media (min-width:768px) and (max-width:991px){
             
-    body{
-        background-image: linear-gradient(#1d4350,#434343);
-    }
-    .grid-container{
-        grid-template:
-        "header header" 100px
-        "navbar navbar" 50px
-        "main main"     auto
-        "footer footer" 100px;
-    }
-    }
-            
+body{
+        background-color: #f907fc;
+        background-image: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%);
+}
+.grid-container{
+    grid-template:
+    "header header" 100px
+    "navbar navbar" 50px
+    "main main"     auto
+    "footer footer" 100px;
+}
+}
         /*DESKTOP*/
+@media (min-width:992px) and (max-width:1200px){
             
-    @media (min-width:992px) and (max-width:1200px){
-            
-    body{ 
-        background-image: linear-gradient(#1d4350,#434343);
-    }
-    .grid-container{
-        grid-template:
-        "header header header" 100px
-        "navbar navbar"        50px
-        "main main"            auto
-        "footer footer footer" 100px;
-    }
-    }
-            
+body{ 
+    background-color: #f907fc;
+    background-image: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%);
+}
+.grid-container{
+    grid-template:
+    "header header header" 100px
+    "navbar navbar"        50px
+    "main main"            auto
+    "footer footer footer" 100px;
+}
+}
         /*DESKTOP LARGE*/
+@media (min-width:1200px) and (max-width:1400px){
             
-    @media (min-width:1200px) and (max-width:1400px){
-            
-    body{
-        background-image: linear-gradient(#1d4350,#434343);
-    }
-    .grid-container{
-        grid-template:
-        "header header header" 100px
-        "navbar navbar"        50px
-        "main main"            auto
-        "footer footer footer" 100px;
-    }
-    }
-    
+body{
+    background-color: #f907fc;
+    background-image: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%);
+}
+.grid-container{
+    grid-template:
+    "header header header" 100px
+    "navbar navbar"        50px
+    "main main"            auto
+    "footer footer footer" 100px;
+}
+}

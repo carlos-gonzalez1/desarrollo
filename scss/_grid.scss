@@ -1,26 +1,19 @@
 /*GRID*/
 .header{
     grid-area: header;
-    background-image: linear-gradient(#1d4350,#434343);
 }
-
 .navbar{
     grid-area: navbar;
-    background-image: linear-gradient(#1d4350,#434343);
 }
-
 .main{
     grid-area: main;
     background-color: #f907fc;
     background-image: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%);
-    
 }
-
 .footer{
     grid-area: footer;
     background-color:#222121;
 }
-
 .grid-container{
     display: grid;
     gap: 1px;
